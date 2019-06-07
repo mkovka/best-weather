@@ -1,0 +1,25 @@
+.App {
+  > .header-cont {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: space-between;
+    > div {
+      display: flex;
+      align-items: center;
+      >span {
+          margin-right: 10px;
+      }
+    }
+    h1 {
+      text-align: center;
+      color: #36354D;
+    }
+  }
+  .weather-cont {
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
